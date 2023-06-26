@@ -1,0 +1,293 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/Gotham-Bold.otf);
+}
+
+@font-face {
+    font-family: Proxima;
+    src: url(../fonts/proximanova-regular.otf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(/img/Rectangle.png);
+    height: 680px;
+    /*можно ли сделать header одним margin-left 190px или что-то похожее?*/
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.logo__header {
+    height: 90.56185913085938px;
+    width: 292.9837951660156px;
+    margin-left: 190px;
+}
+
+.nav {
+    display: flex;
+    list-style: none;
+    margin-right: 190px;
+    margin-top: 30px;
+}
+
+.nav li a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 6px 15px;
+}
+
+.nav li a:hover {
+    background-color: #161616;
+    ;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.sell {
+    font-family: Montserrat;
+    font-weight: 700;
+    height: 164px;
+    width: 533px;
+    font-size: 90px;
+    margin-left: 190px;
+    margin-top: 32px;
+    line-height: 82px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+}
+
+.sell__top {
+    color: #161616;
+}
+
+.sell__bottom {
+    color: #fff;
+}
+
+.lorem {
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    height: 84px;
+    width: 494px;
+    color: #fff;
+    margin: 50px 0 0 190px;
+}
+
+.services {
+    width: 1060px;
+    height: 399px;
+    margin: 50px 190px 70px;
+
+}
+
+.services__head {
+    margin-bottom: 82px;
+}
+
+.srv {
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    width: 379px;
+    height: 61px;
+}
+
+span {
+    color: #C62314;
+}
+
+.services__inner {
+    display: flex;
+    justify-content: space-between;
+    color: #130E27;
+}
+
+.item {
+    text-align: center;
+}
+
+.text1 {
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    width: 163px;
+    padding-top: 40px;
+    /*Тут вопрос, не могу сделать 1 в 1 как намакете, там у каждого элемента своя разница в высоте, массово можно сделать как-то?*/
+}
+
+.story {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #130E27;
+}
+
+.text2 {
+    width: 611px;
+    height: 56px;
+    color: #fff;
+    font-family: PT Serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    margin: 34px 0;
+    /*В макете идет перенос на слове and, у меня на слове people. Что не так?*/
+}
+
+.btn {
+    width: 270px;
+    height: 64px;
+    background-color: #C62314;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #C62314;
+}
+
+.pricing {
+    width: 1440px;
+    height: 691px;
+    background-color: #EFEFEF;
+}
+
+.pricing__head {
+    text-align: center;
+    padding: 50px 0;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #130E27;
+}
+
+.pricing__inner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.info {
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 340px;
+    height: 460px;
+}
+
+.info__business {
+    margin: 0 20px;
+}
+
+.rate {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    list-style: none;
+    margin: 40px 0 35px;
+}
+
+.pay {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    letter-spacing: -0.02em;
+    color: #C62314;
+    text-transform: uppercase;
+    list-style: none;
+}
+
+.column {
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.03em;
+    color: #161616;
+    list-style: none;
+    padding: 30px 0 40px;
+}
+
+.btn__prc {
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    width: 205px;
+    height: 50px;
+    color: #fff;
+    background-color: #130E27;
+    border-radius: 5px;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+
+}
+
+.btn__prc:hover {
+    background-color: #C62314;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.footer__inner {
+    width: 1440px;
+    height: 190px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #130E27;
+}
+
+
+.logo__footer {
+    padding: 60px 0;
+}
+
+.text3 {
+    width: 611px;
+    height: 28px;
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    padding: 81px 0;
+}
