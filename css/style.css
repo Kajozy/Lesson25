@@ -176,7 +176,7 @@ span {
 
 .pricing {
     width: 1440px;
-    height: 691px;
+    padding-bottom: 50px;
     background-color: #EFEFEF;
 }
 
@@ -203,7 +203,6 @@ span {
     margin: 0;
     padding: 0;
     width: 340px;
-    height: 460px;
 }
 
 .info__business {
